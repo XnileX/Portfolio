@@ -21,7 +21,9 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
-            {config.hero.p[1]}
+            {config.hero.p[1]} <br className="hidden sm:block" />
+            {config.hero.p[2]} <br className="hidden sm:block" />
+            {config.hero.p[3]} <br className="hidden sm:block" />
           </p>
         </div>
       </div>
